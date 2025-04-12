@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #000;
+  background-color: rgb(200, 109, 222);
 }
 .header {
   display: flex;
@@ -70,12 +70,4 @@
     padding: 8px 12px;
     font-size: 14px;
   }
-}
-
-button {
-  border-radius: 4px;
-  text-decoration: none;
-  background: none;
-  border-color: #ffffff;
-  background-color: darkorchid;
 }
