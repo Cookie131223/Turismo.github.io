@@ -1,67 +1,62 @@
 body {
   font-family: Arial, sans-serif;
+  background: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0;
-  background-color: #f4f4f4;
 }
 
-.container {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.register-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   width: 100%;
   max-width: 400px;
 }
 
-h2 {
+.register-form h2 {
   text-align: center;
-  color: #333333;
+  margin-bottom: 1.5rem;
+  color: #0066cc;
 }
 
-label {
-  font-weight: bold;
-  color: #555555;
+.form-group {
+  margin-bottom: 1rem;
 }
 
-input {
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
   width: 100%;
-  padding: 10px;
-  margin: 8px 0 16px 0;
-  border: 1px solid #cccccc;
-  border-radius: 5px;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
   box-sizing: border-box;
 }
 
-button {
+.btn-register {
   width: 100%;
-  background-color: indigo;
+  padding: 0.8rem;
+  background: #0066cc;
   color: white;
-  padding: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
+  margin-top: 1rem;
 }
 
-button:hover {
-  background-color: rgb(200, 109, 222);
-  transition: background-color 0.3s ease;
-}
-
-p {
+.register-form p {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 1rem;
 }
 
-a {
-  color: blue;
+.register-form a {
+  color: #0066cc;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }

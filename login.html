@@ -1,32 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tela de Login</title>
-  <link rel="stylesheet" href="./Css/login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Explorer</title>
+    <link rel="stylesheet" href="Css/login.css">
 </head>
-
 <body>
-
-  <div class="container">
-    <form action="./" method="get">
-      <h2>Login</h2>
-      <label for="username">Nome de Usario:</label>
-      <input type="text" name="username" id="username" required>
-      <br><br>
-      <label for="password">Senha:</label>
-      <input type="text" name="password " id="password" required>
-      <br><br>
-      <button>Login</button>
-      <p>Não tem uma conta ? <a href="./registrar.html">Registrar-se</a></p>
-
-
-    </form>
-
-  </div>
-
+    <div class="login-container">
+        <form class="login-form">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" required>
+            </div>
+            <button type="submit" class="btn-login">Entrar</button>
+            <p>Não tem conta? <a href="registrar.html">Cadastre-se</a></p>
+        </form>
+    </div>
 </body>
-
 </html>
